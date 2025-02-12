@@ -7,6 +7,7 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 span{
     color: #FD6E0A;
@@ -35,4 +36,129 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    cursor: pointer;
+}
+.header{
+    background-color:#FFF8F3;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-profile-pic{
+    width: 400px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.header{
+    background-image: url(/Portfolio1-programming-hero/images/developer.png),url(/portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: top left,bottom right;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.about{
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.skills{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 130px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 3px 30px 0px #f4c2c2;
+    border-radius: 5px;
+}
+.skill-description{
+    font-size: 10px;
+    text-align: left;
+}
+.resume-section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.resume-container{
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    gap: 24px;
+    padding: 30px 50px;
+}
+.resume-column-title{
+    text-align: center;
+}
+.experience{
+    box-shadow: 3px 0px 30px 0px #f6dbdb;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.resume-button{
+  text-align: center;
+}
+footer{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"],footer input[type="email"]{
+    height: 45px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border: none;
+}
+footer textarea{
+    border: none;
+}
+#btn{
+    display: block;
+    margin-top: 20px;
 }
